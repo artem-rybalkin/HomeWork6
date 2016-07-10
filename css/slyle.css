@@ -96,27 +96,27 @@ body {
 	color: #bfbfbf;
 }
 .registration a:last-child {
-	padding-left: 17px;
+	padding-left: 20px;
 	padding-right: 11px;
 	font-size: 12px;
 }
-.ikons {
+.icons {
 	float: left;
-	margin-top: 18px;
+	margin-top: 19px;
 	border:1px solid #c4cacd;
 	width: 75px;
 	height: 20px;
 	border-radius: 9px;
 	margin-left: 17px;
 }
-.ikons img:first-child {
+.icons img:first-child {
 	padding-left: 8px;
 }
-.ikons img {
+.icons img {
 	padding-left: 4px;
 	padding-bottom: 1px;
 }
-.ikons img:last-child {
+.icons img:last-child {
 	padding-left: 6px;
 }
 .empty {
@@ -195,44 +195,55 @@ main {
 	background: linear-gradient(to top, #0c3357, #25617b);
 	border-radius:60px;
 }
+.basket a:hover {
+	background:none;
+	border-radius:60px;
+}
 .active {
 	background: linear-gradient(to top, #0c3357, #25617b);
 	border-radius:60px;
 }
-.koshyk {
+.basket {
 	padding-left:59px;
 }
-.koshyk2 {
-	padding-bottom: -1px;
+.basket2 {
+	/*padding-bottom: -1px;*/
 	padding-left: 7px;
 }
-.koshyk3 {
+.basket3 {
 	padding-left: 2px;
 }
-.koshyk2,
-.koshyk4 {
+.basket2,
+.basket4 {
 	color: #868e92;
 	font-size: 11px;
 	font-family: "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
 }
-.koshyk4{
+.basket4{
 	padding-left: 13px;
 }
-.koshyk5 {
+.basket5 {
 	padding-left: 11px;
 }
-.koshyk3,
-.koshyk5 {
+.basket3,
+.basket5 {
 	color: #104c78;
 	font-size: 12px;
 	font-family: "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
 }
 .find {
-	padding-top: 10px;
+	padding-top: 9px;
 }
-
+.find img:first-child {
+	padding-left: 4px;
+	
+}
 .find img:nth-child(2) {
 	padding-left: 3px;
+}
+.find img:last-child {
+	margin-left: -2px;
+	margin-top: 1px;
 }
 
 /*LEFT_MENU*/
@@ -240,10 +251,10 @@ main {
 	float: left;
 }
 .shunu {
-	margin-top: 6px;
+	margin-top: 7px;
 }
 .katalog {
-	height: 24px;
+	height: 25px;
 	border:1px solid #c4cacd;
 	border-radius: 11px;
 }
@@ -263,7 +274,7 @@ main {
 .text {
 	margin-top: 13px;
 	width: 150px;
-	height: 27px;
+	height: 25px;
 	border:1px solid #c4cacd;
 	border-radius: 14px;
 }
@@ -306,7 +317,7 @@ main {
 .shunu li,
 .diski li,
 .bolty li {
-	padding-top: 6px;
+	padding-top: 7px;
 }
 .shunu li:last-child,
 .diski li:last-child {
@@ -331,18 +342,24 @@ main {
 	padding-top: 1px;
 	
 }
-.diski_text,
+.diski_text {
+	width: 150px;
+	height: 25px;
+	border:1px solid #c4cacd;
+	border-radius: 14px;
+}
 .bolty_text {
 	width: 150px;
-	height: 27px;
+	height: 26px;
 	border:1px solid #c4cacd;
 	border-radius: 14px;
 }
 
+
 /*CENTRAL_MENU*/
 .central_menu {
-	margin-left: 10px;
-	margin-top: 0px;
+	margin-left: 11px;
+	margin-top: 4px;
 	float: left;
 	background: linear-gradient(to top, #94a7b0, #e5e7e8);
 	border-radius: 2px;
@@ -361,15 +378,14 @@ main {
 .line1,
 .line2,
 .line3 {
-	padding-left: 26px;
+	margin-left: 19px;
 }
 .line3_1 {
-	margin-bottom: 30px;
+	margin-bottom: 27px;
 }
 .line1_1,
-.line1_2,
-.line1_3 {
-	padding-right: 30px;
+.line1_2 {
+	padding-right: 34px;
 }
 .line2_1,
 .line2_2,
@@ -382,106 +398,147 @@ main {
 	padding-right: 30px;
 }
 
+.line1_1 .title {
+	padding-left: 6px;
+	padding-top: 1px;
+}
+.line1_1 img {
+	padding-left: 3px;
+	margin-top: -2px;
+}
 .line1_1 .title p:first-child {
-	margin-left: -6px;
-	padding-top: 23px;
+	margin-left: -2px;
+	margin-top: 34px;
 }
 .line1_1 .title p {
-	margin-top: -9px;
+	margin-top: -8px;
+	margin-left: 4px;
 }
 .line1_1 figure {
-	margin-top: -1px;
+	margin-top: -24px;
 	margin-right: -1px;
 }
+.line1_2 img {
+	margin-top: -4px;
+}
 .line1_2 .title p:first-child {
-	margin-left: 0px;
-	padding-top: 22px;
+	margin-left: 3px;
+	padding-top: 18px;
 }
 .line1_2 .title p {
-	margin-top: -8px;
-	margin-left: 0px;
+	margin-top: -7px;
+	margin-left: 2px;
 }
 .line1_2 figure {
 	margin-top: -3px;
 	margin-left: -3px;
 }
+.line1_3 img {
+
+	margin-top: -2px;
+}
 .line1_3 .title p:first-child {
-	margin-left: 0px;
-	padding-top: 22px;
+	margin-left: 5px;
+	padding-top: 18px;
 }
 .line1_3 .title p {
-	margin-top: -8px;
+	/*letter-spacing: 0.5px;*/
+	margin-top: -7px;
 	margin-left: 0px;
 }
 .line1_3 figure {
 	margin-top: -3px;
-	margin-left: -3px;
+	margin-left: -6px;
+}
+.line2_1 img {
+	padding-left: 3px;
+	margin-top: -2px;
 }
 .line2_1 .title p:first-child {
-	margin-left: -6px;
-	padding-top: 29px;
+	margin-left: -4px;
+	padding-top: 26px;
 }
 .line2_1 .title p {
-	margin-top: -9px;
+	padding-left: 9px;
+	margin-top: -7px;
 }
 .line2_1 figure {
 	margin-top: -1px;
 	margin-right: -1px;
 }
+.line2_2 img {
+	margin-top: -2px;
+}
 .line2_2 .title p:first-child {
-	margin-left: -3px;
-	padding-top: 27px;
+	margin-left: 6px;
+	padding-top: 25px;
 }
 .line2_2 .title p {
-	margin-top: -8px;
-	margin-left: -2px;
+	margin-top: -7px;
+	margin-left: 6px;
 }
 .line2_2 figure {
 	margin-top: -3px;
-	margin-left: -3px;
+	margin-left: -2px;
+}
+.line2_3 img {
+	margin-top: -2px;
 }
 .line2_3 .title p:first-child {
 	margin-left: 3px;
-	padding-top: 26px;
+	padding-top: 27px;
 }
 .line2_3 .title p {
-	margin-top: -8px;
+	margin-top: -7px;
 	margin-left: 0px;
 }
 .line2_3 figure {
-	margin-top: -3px;
-	margin-left: -3px;
+	margin-top: -9px;
+	margin-left: 1px;
+}
+.line3_1 img {
+	margin-top: -2px;
+	margin-left: 4px;
 }
 .line3_1 .title p:first-child {
-	margin-left: -9px;
-	padding-top: 31px;
+	margin-left: -6px;
+	padding-top: 28px;
 }
 .line3_1 .title p {
-	margin-top: -9px;
+	padding-left: 5px;
+	margin-top: -8px;
 }
 .line3_1 figure {
 	margin-top: -1px;
 	margin-right: -1px;
 }
+.line3_2 img {
+	margin-top: -4px;
+	margin-left: 1px;
+}
 .line3_2 .title p:first-child {
-	margin-left: 0px;
-	padding-top: 30px;
+	margin-left: 5px;
+	padding-top: 28px;
 }
 .line3_2 .title p {
-	margin-top: -8px;
-	margin-left: 0px;
+	margin-top: -7px;
+	margin-left: 6px;
 }
 .line3_2 figure {
 	margin-top: -3px;
 	margin-left: -3px;
 }
+.line3_3 img {
+	margin-top: -2px;
+	margin-left: 2px;
+}
 .line3_3 .title p:first-child {
-	margin-left: 0px;
-	padding-top: 30px;
+	margin-left: 6px;
+	padding-top: 29px;
 }
 .line3_3 .title p {
 	margin-top: -8px;
-	margin-left: 0px;
+	margin-left: 3px;
 }
 .line3_3 figure {
 	margin-top: -3px;
@@ -496,62 +553,64 @@ main {
 }
 
 .title p {
-	font-size: 13px;
+	font-size: 12.77px;
 	font-family: "Lucida Sans Unicode", Helvetica, sans-serif;
 	text-align: center;
 }
 .line1_1 .price {
-	padding-left: 5px;
+	padding-left: 14px;
 	margin-top: -2px;
 }
 .line1_1 .hrn {
 	padding-left: 4px;
 }
 .line1_2 .price {
-	padding-left: 7px;
+	padding-left: 8px;
 }
 .line1_2 .hrn {
 	padding-left: 7px;
 }
 .line1_3 .price {
-	padding-left: 7px;
+	margin-top: -1px;
+	padding-left: 3px;
 }
 .line1_3 .hrn {
 	padding-left: 7px;
 }
 .line2_1 .price {
-	padding-left: 5px;
+	padding-left: 14px;
 	margin-top: -2px;
 }
 .line2_1 .hrn {
 	padding-left: 4px;
 }
 .line2_2 .price {
-	padding-left: 7px;
+	padding-left: 14px;
 }
 .line2_2 .hrn {
 	padding-left: 5px;
 }
 .line2_3 .price {
-	padding-left: 7px;
+	padding-left: 10px;
 }
 .line2_3 .hrn {
 	padding-left: 7px;
 }
 .line3_1 .price {
-	padding-left: 5px;
-	margin-top: -2px;
+	padding-left: 11px;
+	margin-top: -1px;
 }
 .line3_1 .hrn {
 	padding-left: 4px;
 }
 .line3_2 .price {
-	padding-left: 7px;
+	padding-left: 10px;
 }
 .line3_2 .hrn {
-	padding-left: 7px;
+	padding-left: 5px;
 }
 .line3_3 .price {
+	margin-top: -2px;
 	padding-left: 7px;
 }
 .line3_3 .hrn {
@@ -578,8 +637,8 @@ main {
 /*RIGHT_MENU*/
 .right-menu {
 	float: right;
-	padding-top: 3px;
-	padding-right: 4px;
+	padding-top: 5px;
+	padding-right: 5px;
 } 
 .brend {
 	width: 180px;
@@ -616,7 +675,7 @@ main {
 	margin-top: 26px;
 	margin-left: -11px;
 	width: 135px;
-	height: 27px;
+	height: 26px;
 	border:1px solid #c4cacd;
 	border-radius: 14px;
 }
@@ -658,6 +717,16 @@ label {
 	float: left;
 	padding-left: 13px;
 	line-height: 12px;
+}
+.input_brend1 span,
+.input_brend2 span,
+.input_brend3 span,
+.input_brend4 span,
+.input_brend5 span,
+.input_brend6 span {
+	float: left;
+	padding-left: 13px;
+	line-height: 10px;
 }
 input[type=checkbox] {
 	float: left;
@@ -704,10 +773,10 @@ footer {
 }
 
 .brendlog {
-	padding-top: 35px;
+	padding-top: 39px;
 }
 .footer_menu {
-	margin-top: 23px;
+	margin-top: 21px;
 	width: 909px;
 	height: 100px;
 	background: #213a4d;
@@ -722,11 +791,20 @@ footer {
 }
 .footer_menu li {
 	letter-spacing: 0.2px;
-	padding-left: 6px;
-	padding-right: 2px;
+	padding-left: 2px;
+	padding-right: 1px;
 	margin-top: 8px;
 	display: inline-block;
 }
+.footer_menu li:last-child {
+	letter-spacing: 0.2px;
+	padding-left: 2px;
+	padding-right: 1px;
+	margin-top: 8px;
+	display: inline-block;
+}
+
+
 .footer_menu span {
 	color: #afb7bc;
 	font-weight: bold;
